@@ -10,7 +10,6 @@ $ composer require alireza-h/service-container
 ```
 
 
-### Sample
 
 Register service
 
