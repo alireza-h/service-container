@@ -16,6 +16,8 @@ Register service
 ```
 ServiceContainer::getInstance()
             ->register(AuthService::class)
+            ->register(RouteCollection::class)
+            ->register(RequestContext::class)
             ->register(UrlService::class, null, [RouteCollection::class, RequestContext::class])
 ```
 
