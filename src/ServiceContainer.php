@@ -1,6 +1,6 @@
 <?php
 
-namespace ALireza\ServiceContainer;
+namespace Alireza\ServiceContainer;
 
 use ArrayAccess;
 
