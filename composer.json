@@ -1,0 +1,20 @@
+{
+  "name": "alireza-h/service-container",
+  "description": "PHP service container",
+  "homepage": "https://github.com/alireza-h/service-container/",
+  "authors": [
+    {
+      "name": "Alireza Hosseinzadeh",
+      "email": "alireza.hoseinzadeh89@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alireza\\ServiceContainer\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
