@@ -15,6 +15,5 @@
     "psr-4": {
       "Container\\ServiceContainer\\": "src/"
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
