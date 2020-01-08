@@ -18,11 +18,14 @@ ServiceContainer::getInstance()
             ->register(AuthService::class)
             ->register(RouteCollection::class)
             ->register(RequestContext::class)
-            ->register(UrlService::class, null, [RouteCollection::class, RequestContext::class])
+            ->register(UrlService::class, null, [RouteCollection::class, RequestContext::class]);
 ```
 
 Access to registered service
 ```
 ServiceContainer::getInstance()
-            ->service(AuthService::class)
+            ->service(AuthService::class);
+            
+ServiceContainer::getInstance()
+            ->service(UrlService::class);
 ```
