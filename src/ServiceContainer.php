@@ -1,6 +1,6 @@
 <?php
 
-namespace Container\ServiceContainer;
+namespace Container;
 
 use ArrayAccess;
 
