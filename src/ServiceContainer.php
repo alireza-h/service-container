@@ -110,7 +110,7 @@ final class ServiceContainer implements ArrayAccess
             $this->offsetSet($key, function ($container) use ($key, $args) {
                 if (!empty($args)) {
                     foreach ($args as $i => $arg) {
-                        $args[$i] = $container[$arg];
+                        $args[$i] = is_string($arg) ? $container[$arg] : $arg;
                     }
                 }
                 return empty($args) ? new $key : new $key(...$args);
